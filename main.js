@@ -42,4 +42,21 @@ $(document).ready(function(){
             noY = t.offset().top;
         });
     });
+    $(document).ready(function(){
+    $('#spin').click(function(){
+        // Seu código existente para girar a roleta aqui...
+
+        // Simulando o término do giro após algum tempo (você pode substituir isso pelo seu código real)
+        setTimeout(function() {
+            // Exibir pop-up após 2 segundos
+            $('#popup').fadeIn();
+        }, 2000); // 2000 milissegundos = 2 segundos
+    });
+
+    // Fechar o pop-up quando clicar no botão de fechar
+    $('#close').click(function(){
+        $('#popup').fadeOut();
+    });
+});
+
 });
