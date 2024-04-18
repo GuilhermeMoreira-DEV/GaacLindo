@@ -50,7 +50,7 @@ $(document).ready(function(){
         setTimeout(function() {
             // Exibir pop-up após 2 segundos
             $('#popup').fadeIn();
-        }, 2000); // 2000 milissegundos = 2 segundos
+        }, 7000); // 2000 milissegundos = 2 segundos
     });
 
     // Fechar o pop-up quando clicar no botão de fechar
